@@ -34,7 +34,7 @@ A real-time system to control LED states using hand gestures, combining computer
   ```bash
   pip install mediapipe opencv-python tensorflow pyfirmata
 
-### Arduino Setup
+### Arduino Setup:
 Open Arduino IDE.
 Upload the StandardFirmata sketch from:
 File → Examples → Firmata → StandardFirmata
@@ -42,5 +42,10 @@ File → Examples → Firmata → StandardFirmata
 Connect the Arduino via USB.
 
 ### Make sure the correct serial port is configured in the script (e.g., COM3 on Windows or /dev/ttyUSB0 on Linux).
+
+### VSCode: 
+Step 1 --> Run the controller.py file.
+
+Step 2 --> Run the new.py file.
 
 For more help, refer youtube channel --> https://www.youtube.com/watch?v=hKbtfto9trw&t=130s&ab_channel=RoboTechZone
